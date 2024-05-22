@@ -8,7 +8,7 @@ from collections import Counter
 def find_common_words(corpus, min_occurrences):
  words = [word.lower() for word in corpus.words()]
  word_counts = Counter(words)
-common_words = [word for word, count in word_counts.items() if count >=        min_occurrences]
+ common_words = [word for word, count in word_counts.items() if count >=        min_occurrences]
 return common_words
 
 def main():
