@@ -16,7 +16,7 @@ def main():
   min_occurrences = 3
   common_words = find_common_words(brown, min_occurrences)
   print(f"Words that occur at least {min_occurrences} times in the Brown Corpus:")
-print(common_words)
+  print(common_words)
 
 if __name__ == "__main__":
     main()
