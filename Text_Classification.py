@@ -52,7 +52,8 @@ for sentence in new_sentences:
 
 
 
-''' Output:-
+''' 
+Output:-
 
 [nltk_data] Downloading package movie_reviews to /root/nltk_data...
 [nltk_data]   Package movie_reviews is already up-to-date!
