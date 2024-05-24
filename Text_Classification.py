@@ -50,3 +50,18 @@ for sentence in new_sentences:
     category = classifier.classify(features)
     print(f"Predicted category for '{sentence}': {category}")
 
+
+
+''' Output:-
+
+[nltk_data] Downloading package movie_reviews to /root/nltk_data...
+[nltk_data]   Package movie_reviews is already up-to-date!
+
+Accuracy: 0.7675
+
+Predicted category for 'This movie was fantastic!': pos
+Predicted category for 'I didn't like the plot of this film.': neg
+Predicted category for 'The acting was superb in this movie.': pos
+Predicted category for 'The screenplay was terrible.': neg
+
+'''
