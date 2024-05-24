@@ -55,9 +55,6 @@ for sentence in new_sentences:
 ''' 
 Output:-
 
-[ to /root/nltk_data...
-[nltk_data]   Package movie_reviews is already up-to-date!
-
 Accuracy: 0.7675
 
 Predicted category for 'This movie was fantastic!': pos
